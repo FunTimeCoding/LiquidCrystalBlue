@@ -29,6 +29,8 @@
 #ifndef _FAST_IO_H_
 #define _FAST_IO_H_
 
+#define _BV(bit) (1 << (bit))
+
 #if (ARDUINO <  100)
 #include <WProgram.h>
 #else
